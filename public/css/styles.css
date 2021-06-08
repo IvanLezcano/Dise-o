@@ -1,0 +1,68 @@
+@import url("./abot.css");
+@import url("./contact.css");
+@import url("./music.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase ;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.home{
+    background-image: url("/Img/emilia-home.jpg");
+    background-size: 80% ;
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-attachment: fixed;
+    background-position-y:-230px ;
+}
+.home .menu, .redes, h2{
+    
+    margin-left: 30px;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.home li a{
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+.home .menu a{
+    color: gray;
+    
+
+}
+
+
+.home .redes a{
+    color: black;
+}
+
+.home h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 15rem;
+    font-size: 3rem;
+
+
+
+}
+.home h1{
+    font-family: 'Raleway', sans-serif;;
+    font-size: 70px;
+    margin-top: 15rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 7px;
+
+
+}
