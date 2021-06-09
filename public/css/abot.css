@@ -1,0 +1,23 @@
+.about{
+    background-image: url("/Img/about.jpg");
+    background-size: 78%;
+    background-position-x: right ;
+    background-repeat: no-repeat;
+}
+.about menu{
+    
+}
+.about a{
+    color:black;
+    text-transform: uppercase;
+}
+.about li{
+    display: inline-block;
+    border-left: black solid 2px;
+    width: 7rem;
+    text-align: center;
+}
+.about li:last-child{
+    border-right: black solid 2px;
+
+}
