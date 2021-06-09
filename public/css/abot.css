@@ -4,8 +4,11 @@
     background-position-x: right ;
     background-repeat: no-repeat;
 }
-.about menu{
-    
+.about .menu{
+    margin-top: 5rem;
+    text-align: right ;
+    padding: 1.5rem 0.5rem ;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .about a{
     color:black;
@@ -14,10 +17,38 @@
 .about li{
     display: inline-block;
     border-left: black solid 2px;
-    width: 7rem;
+    width: 10rem;
     text-align: center;
+    font-size: 2rem;
 }
 .about li:last-child{
     border-right: black solid 2px;
+
+}
+.about .redes{
+    text-align: right;
+    margin:10px 10px 0px 0px
+   
+}
+
+.about h1{
+    font-family: "Raleway";
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 5rem;
+
+}
+.about h4{
+    font-size: 2rem;
+    margin-top: 7rem;
+    color: #40A08F;
+    margin-left: 4rem;
+
+}
+.about p{
+    margin-top: 3rem;
+    color: #40A08F;
+    margin-left: 4rem;
+
 
 }

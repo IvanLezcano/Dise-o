@@ -9,6 +9,7 @@
     padding: 0;
     text-transform: uppercase ;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 
 }
 a{
@@ -17,7 +18,24 @@ a{
 li{
     list-style-type: none;
 }
-
+.fa-twitter-square:hover{
+    color: aqua;
+}
+.fa-instagram-square:hover{
+    color: pink;
+}
+.fa-spotify:hover{
+    color: rgb(0, 255, 42);
+}
+.fa-apple:hover{
+    color: rgba(48, 252, 21, 0.582);
+}
+.fa-amazon:hover{
+    color: rgb(255, 208, 0);
+}
+.fa-facebook-square:hover{
+    color: rgb(0, 162, 255);
+}
 .home{
     background-image: url("/Img/emilia-home.jpg");
     background-size: 80% ;
