@@ -16,8 +16,29 @@
 }
 .music a{
     color:black;
+    text-transform:uppercase;
+    
+
+    font-size: 2rem;
+}
+.music .albums, .gotop{
     text-transform:capitalize;
-    margin: 0;
+
+}
+.music .gotop{
+    text-transform:capitalize;
+
+}
+
+.music .albums:hover{
+    color: blue;
+    text-transform:capitalize;
+
+}
+.music .gotop:hover{
+    color: blue;
+    text-transform:capitalize;
+
 }
 .music .menu li{
     display: inline-block;
@@ -25,6 +46,8 @@
     width: 10rem;
     text-align: center;
     font-size: 2rem;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
 }
 .music li:last-child{
     border-right: black solid 2px;
@@ -37,6 +60,8 @@
 }
 .music p{
     text-transform: capitalize;
+    font-size: 2rem;
+
 }
 main{
     padding: 10px;
@@ -50,11 +75,35 @@ main{
 }
 .music p{
     color: black;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 .music ul,ol{
     margin-left: 40px;
+    margin-bottom: 1rem !important;
 }
 .music h2{
     margin:0;
+    margin-top: 2rem;
     
 }
+.music ol li{
+    list-style-type:decimal-leading-zero !important;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+
+    
+}
+.music article{
+    margin:0 !important;
+}
+.music img{
+    width: 100%;
+}
+.gotop{
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.5rem !important;
+}
+
